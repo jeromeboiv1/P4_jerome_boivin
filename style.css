@@ -7,6 +7,21 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+/* modification */
+
+.blue{
+    color : #29414E; 
+}
+
+.text-size-16{
+    font-size: 16px;
+}
+
+.text-size-30{
+    font-size: 30px;
+}
+
+
 a,
 button {
     transition: all .3s ease-in-out;
