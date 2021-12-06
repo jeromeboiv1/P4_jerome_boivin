@@ -10,7 +10,7 @@ body {
 /* modification */
 
 .blue{
-    color : #29414E; 
+    color : #002342; 
 }
 
 .text-size-16{
@@ -840,6 +840,8 @@ h4 {
     background-image: url("img/image-de-presentation.jpg");
 }
 
+/* MEDIA QUERIES */
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
@@ -861,6 +863,7 @@ h4 {
     .nav-center.navbar .nav {
         max-width: 100%
     }
+    
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
@@ -901,6 +904,11 @@ h4 {
         padding: 0 20px;
         padding-left: constant(safe-area-inset-left);
         padding-right: constant(safe-area-inset-right);
+    }
+    .img-illustration{
+        width : 250px;
+        height : 250px;
+        margin : auto;
     }
 }
 
