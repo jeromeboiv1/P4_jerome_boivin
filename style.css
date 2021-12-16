@@ -22,6 +22,12 @@ body {
     font-size: 30px;
 }
 
+.contact{
+    display: flex;
+    justify-self: center;
+    align-items: space-around;
+    flex-direction: column;
+}
 
 a,
 button {
@@ -211,7 +217,7 @@ a:hover {
 
 .d-bloc .panel,
 .l-bloc {
-    color: rgba(0, 0, 0, .5);
+    color: rgba(0, 0, 0,);
 }
 
 .d-bloc .panel button:hover,
@@ -666,8 +672,8 @@ label,
 .btn,
 a {
     font-family: "helvetica";
-    font-weight: 400;
-    color: #575757!important;
+    font-weight: 500;
+    /*color: #575757!important;*/
 }
 
 .container {
@@ -794,9 +800,14 @@ h4 {
     color: #F3976C!important;
 }
 
+.tc-white2 {
+    color: #021b31!important;
+    font-weight: 600;
+}
+
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #021b31!important;
 }
 
 .btn-atomic-tangerine:hover {
