@@ -10,7 +10,7 @@ body {
 /* modification */
 
 .blue{
-    color : #021b31; 
+    color : rgba(2, 27, 49); 
 }
 .text-size-16{
     font-size: 16px;
@@ -21,14 +21,22 @@ body {
 .text-size-30{
     font-size: 30px;
 }
-
+.blue-background{
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 40px;
+}
 .contact{
     display: flex;
-    justify-self: center;
-    align-items: space-around;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
+    text-align: center;
+    margin : 50px auto;
 }
-
+.mail a{
+    color :#333333;
+    
+}
 a,
 button {
     transition: all .3s ease-in-out;
@@ -871,6 +879,7 @@ h4 {
 @media (max-width: 992px) and (min-width: 768px) {
     .navbar .nav {
         max-width: 80%
+        
     }
     .nav-center.navbar .nav {
         max-width: 100%
@@ -995,6 +1004,7 @@ h4 {
         overflow-x: hidden;
         -webkit-box-shadow: none;
         box-shadow: none;
+        display: block;
     }
     .navbar-brand img {
         max-height: 40px;
